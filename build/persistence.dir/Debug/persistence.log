@@ -1,0 +1,140 @@
+﻿  main.cpp
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(71,1): error C2661: 'ADE::Persistence::PartialNode<Type>::PartialNode': ninguna función sobrecargada acepta 3 argumentos
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(67): message : al compilar la función del miembro clase plantilla "ADE::Persistence::PartialNode<Type> *ADE::Persistence::PartialNode<Type>::verify_mods(unsigned int)"
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(209): message : Vea la referencia a la creación de una instancia de la función plantilla "ADE::Persistence::PartialNode<Type> *ADE::Persistence::PartialNode<Type>::verify_mods(unsigned int)" que se está compilando
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\main.cpp(18): message : Vea la referencia a la creación de una instancia de clase plantilla "ADE::Persistence::PartialNode<Type>" que se está compilando
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(78,1): error C2819: el tipo 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>' no tiene un miembro sobrecargado 'operator ->'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(38): message : vea la declaración de 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(78,1): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(78,1): error C2232: '->ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>::puntero': el operando izquierdo tiene el tipo 'class'; utilice '.'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(79,1): error C2819: el tipo 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>' no tiene un miembro sobrecargado 'operator ->'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(38): message : vea la declaración de 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(79,1): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(79,1): error C2232: '->ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>::value': el operando izquierdo tiene el tipo 'class'; utilice '.'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(81,1): error C2819: el tipo 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>' no tiene un miembro sobrecargado 'operator ->'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(38): message : vea la declaración de 'ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(81,1): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(81,1): error C2232: '->ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>::index': el operando izquierdo tiene el tipo 'class'; utilice '.'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(81,1): error C2232: '->ADE::Persistence::modi<ADE::Persistence::PartialNode<Type>,int>::ptr': el operando izquierdo tiene el tipo 'class'; utilice '.'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(88,1): error C2039: "back_": no es un miembro de "ADE::Node<Type>"
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(35): message : vea la declaración de 'ADE::Node<Type>'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(88,1): error C3531: 'e': un símbolo cuyo tipo contiene 'auto' debe tener un inicializador
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(88,21): error C2143: error de sintaxis: falta ';' delante de ':'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(88,42): error C2143: error de sintaxis: falta ';' delante de ')'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(89,15): error C2100: direccionamiento indirecto no válido
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(89,1): error C2446: ==': no hay conversión de 'ADE::Persistence::PartialNode<Type> *' en 'int'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(89,21): message : No existe un contexto en el que sea posible realizar esta conversión
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(90,13): error C2100: direccionamiento indirecto no válido
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(90,1): error C2440: '=': no se puede realizar la conversión de 'ADE::Persistence::PartialNode<Type> *' a 'int'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(90,18): message : No existe un contexto en el que sea posible realizar esta conversión
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,23): error C2672: 'begin': no se encontró una función sobrecargada que coincida
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C2893: No se pudo especializar la plantilla de función "unknown-type std::begin(_Container &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1911): message : vea la declaración de 'std::begin'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): message : Con los siguientes argumentos de plantilla:
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): message : '_Container=ADE::Node<Type> *'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'ADE::Node<Type> *'
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\initializer_list(57): message : vea la declaración de 'std::begin'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,23): error C2672: 'end': no se encontró una función sobrecargada que coincida
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C2893: No se pudo especializar la plantilla de función "unknown-type std::end(_Container &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1921): message : vea la declaración de 'std::end'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): message : Con los siguientes argumentos de plantilla:
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): message : '_Container=ADE::Node<Type> *'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'ADE::Node<Type> *'
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\initializer_list(63): message : vea la declaración de 'std::end'
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C3536: '<begin>$L2': no se puede usar antes de inicializarse
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,1): error C3536: '<end>$L2': no se puede usar antes de inicializarse
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(98,35): error C2100: direccionamiento indirecto no válido
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(100,15): error C2100: direccionamiento indirecto no válido
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(100,1): error C2446: ==': no hay conversión de 'ADE::Persistence::PartialNode<Type> *' en 'int'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(100,21): message : No existe un contexto en el que sea posible realizar esta conversión
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(102,13): error C2100: direccionamiento indirecto no válido
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(102,1): error C2440: '=': no se puede realizar la conversión de 'ADE::Persistence::PartialNode<Type> *' a 'int'
+          with
+          [
+              Type=int
+          ]
+C:\Users\wilbe\OneDrive\Escritorio\EDAPartial\persistence\source\PartialDirectedGraph.hpp(102,18): message : No existe un contexto en el que sea posible realizar esta conversión
